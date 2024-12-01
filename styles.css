@@ -5,6 +5,7 @@
     --color-yellow: rgba(253, 212, 19, 1); /* Yellow */
     --color-dark-blue: rgba(16, 30, 87, 1); /* Dark Blue */
     --color-blue-ciel: rgba(234, 238, 249, 1); /* Blue Ciel */
+    --primary--p1: #101e57; 
 }
 
 body {
@@ -84,3 +85,60 @@ i{
         color: var(--color-white); /* Change text color on hover */
 
     }
+  
+    :root {
+      --color-white: #FFFFFF;
+      --color-dark-blue: rgba(16, 30, 87, 1);
+      --color-blue-ciel: rgba(234, 238, 249, 1);
+  }
+  
+  .hero-wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content:start;
+      align-items: start;
+      height: 100vh;
+      margin-left:90px;
+  }
+  
+  .hero-title {
+      font-size: 40px;
+      font-weight: bold;
+      color: var(--color-dark-blue);
+     
+      border-radius: 80px;
+      border: solid  #101e57;
+      padding: 25px 20px;
+      border-color: var(--color-blue-ciel);
+      background-color: var(--color-blue-ciel);
+      margin:10px;
+      margin-top: 70px;
+  }
+  
+  .hero-item1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--color-dark-blue);
+    border-radius: 80px;
+    border: solid  #101e57;
+    padding: 25px 120px;
+    border-color: var(--color-blue-ciel);
+    background-color: var(--color-blue-ciel);
+    margin-left: 10px;
+    margin-top: 1px;
+    transform: rotate(-6deg)
+    
+    
+}
+.hero-item2{
+  font-size: 40px;
+  margin-top: 45px;
+  font-weight: bold;
+  color: var(--color-dark-blue);
+  border-radius: 80px;
+  border: solid  #101e57;
+  padding: 25px 170px;
+  border-color: var(--color-blue-ciel);
+  background-color: var(--color-blue-ciel);
+  transform:rotate(9deg);
+}
