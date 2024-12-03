@@ -152,3 +152,95 @@ i{
 
   
 }
+/* Solicode en chiffres */
+.solicode-numbers {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between cards */
+    padding: 20px; /* Padding for the section */
+  }
+  .stats-title{
+    color: #101e57;
+   text-align: center;
+   letter-spacing: 1px;
+  }
+  
+  .number-item {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 150px; /* Fixed width for consistency */
+    height: 150px; /* Fixed height for consistency */
+    text-align: center;
+    background-color: #f0f4fa; /* Light blue */
+    border-radius: 16px; /* Rounded corners */
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .number {
+    font-size: 2.5rem; /* Slightly larger text */
+    font-weight: bold;
+    color: rgba(1, 41, 99, 1); /* Dark blue for contrast */
+  }
+  
+  #item2 {
+    background-color: rgba(253, 212, 19, 0.7); /* Yellow for Places pédagogiques */
+    color: rgba(1, 41, 99, 1); /* Dark blue text for contrast */
+    box-sizing: content-box;
+    
+  }
+  
+  #item3 {
+    background-color: #4a69bd; /* Blue for Lauréats */
+    color: white; /* White text for contrast */
+
+  }
+  #staff-number{
+    font-size: 60px;
+    margin-bottom: 80px;
+    margin-right: 80px;
+    letter-spacing: 5px;
+    
+  }
+  #places-number{
+    font-size: 60px;
+    margin-bottom: 80px;
+    margin-right: 80px;
+    letter-spacing: 5px; 
+    transform: translateY(10px);
+  }
+  #laureats-number{
+    font-size: 60px;
+    margin-bottom: 80px;
+    margin-right: 80px;
+    letter-spacing: 5px;
+    color: white;
+  }
+  #filieres-number{
+    font-size: 60px;
+    margin-bottom: 80px;
+    margin-right: 80px;
+    letter-spacing: 5px;
+  }
+  
+  .label1{
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+  }
+  .label2{
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    text-align: start;
+ 
+  }
+  .label3{
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+  }
+   .label4{
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+
+  }
